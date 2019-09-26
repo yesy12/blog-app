@@ -58,7 +58,7 @@
     
   //Mongoose
     mongoose.Promise = global.Promise;
-	const link = "mongodb+srv://express:<password>@cluster0-nth3w.mongodb.net/test?retryWrites=true&w=majority"
+		const link = "mongodb+srv://express:o1pMHQKMy3We70cX@cluster0-nth3w.mongodb.net/test?retryWrites=true&w=majority"
     mongoose.connect(link,   {useNewUrlParser: true }).
     then(function(){
       console.log("Conectado ao MongoDB")
